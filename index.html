@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Не просто разработчик: история моего кода</title>
+    <style>
+        /* Общие настройки */
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f7;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Шапка */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            margin: 25px 0 10px;
+            color: #2c3e50;
+            font-weight: 400;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Основной контент */
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+        }
+
+        .content h2 {
+            color: #2980b9;
+            font-size: 2rem;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Код (выделение) */
+        .code {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2980b9;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            overflow-x: auto;
+            border-radius: 8px;
+        }
+
+        /* Футер */
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #95a5a6;
+            font-size: 0.9rem;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2.2rem; }
+            .header p { font-size: 1.1rem; }
+            .content { padding: 25px; }
+            .content h2 { font-size: 1.7rem; }
+            .code { padding: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="photo.jpg" alt="Автор за работой">
+            <h1>Не просто разработчик: история моего кода</h1>
+            <p>«Код как почерк: мой путь в программировании»<br>
+            Рассказываю, как превращаю идеи в работающий код — с ошибками, инсайтами и любимыми приёмами.</p>
+        </header>
+
+        <main class="content">
+            <h2>Раздел 1: Обо мне</h2>
+            <p>
+                Привет! Меня зовут Артём, друзья называют Нурик — это производное от фамилии. Мне 12 лет, я учусь в кадетском классе и посещаю три кружка.
+                Увлекаюсь программированием: работаю с HTML, Java, Python и C++. Мой любимый язык — Python: ценю его за простоту и мощные возможности.
+                По знаку зодиака я Весы.
+            </p>
+
+            <h2>Раздел 2: С чего всё началось</h2>
+            <p>
+                «Терпение и труд всё перетрут» — эта пословица отлично описывает путь в программировании.
+                Когда‑то я думал, что создать сайт — сложная задача. Но попробовал — и убедился: всё возможно.
+                Свой первый проект я собрал на ноутбуке буквально «на коленках», а затем залил на GitHub.
+            </p>
+            <p>
+                Если вам кажется, что программирование — это сложно, не переживайте. Главное — начать. 
+                Каждый баг, каждая ошибка — это шаг к пониманию.
+            </p>
+
+            <h2>Раздел 3: Простой пример на Python</h2>
+            <p>
+                Давайте разберём простой скрипт на Python, который создаёт окно с помощью библиотеки <code>tkinter</code>.
+            </p>
+            <div class="code">
+                import tkinter as tk  # Импортируем модуль tkinter<br>
+                w = tk.Tk()          # Создаём главное окно<br>
+                w.mainloop()         # Запускаем цикл обработки событий
+            </div>
+            <p>
+                Это самый базовый пример, демонстрирующий запуск графического интерфейса.
+                В дальнейшем можно добавлять кнопки, поля ввода и другие элементы.
+            </p>
+
+            <p>
+                Спасибо, что прочитали мою статью! Буду рад вашим вопросам и отзывам.
+            </p>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Артём. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
